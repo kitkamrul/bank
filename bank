@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<iostream>
 using namespace std;
-
+// Encapsulation
 class bank
 {
     char name[100],add[100],y;
@@ -13,8 +13,10 @@ public:
     void withdraw_money ();
     void display_account();
 };
+//Inheritance
 void bank::open_account()
 {
+//Polymorphism
     system("cls");
     cout<<"Enter your full name ::";
     cin.ignore();
@@ -55,6 +57,7 @@ void bank::withdraw_money()
 
 int main()
 {
+//Abstraction
     int ch,x,n;
     bank obj;
     system("cls");
